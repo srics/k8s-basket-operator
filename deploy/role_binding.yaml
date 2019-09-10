@@ -1,0 +1,11 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: basket-operator
+subjects:
+- kind: ServiceAccount
+  name: basket-operator
+roleRef:
+  kind: Role
+  name: basket-operator
+  apiGroup: rbac.authorization.k8s.io
