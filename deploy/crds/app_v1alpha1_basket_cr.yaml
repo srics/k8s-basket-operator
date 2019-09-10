@@ -1,0 +1,7 @@
+apiVersion: app.example.com/v1alpha1
+kind: Basket
+metadata:
+  name: example-basket
+spec:
+  # Add fields here
+  size: 3
