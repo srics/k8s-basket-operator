@@ -15,8 +15,7 @@ spec:
       serviceAccountName: basket-operator
       containers:
         - name: basket-operator
-          # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/srics/basket-operator
           command:
           - basket-operator
           imagePullPolicy: Always
