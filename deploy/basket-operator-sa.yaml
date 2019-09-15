@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2019-09-10T05:39:39Z"
+  name: basket-operator
+  namespace: default
+  selfLink: /api/v1/namespaces/default/serviceaccounts/basket-operator
+  uid: 4b71c7fc-6c6b-466c-8137-3b2a5770fda4
+secrets:
+- name: basket-operator-token-98zcr
+imagePullSecrets:
+- name: quay-regcred
